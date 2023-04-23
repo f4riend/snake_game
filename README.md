@@ -1,0 +1,2 @@
+# HOW TO PLAY
+ARROW KEYS FOR MOVEMENT // Classic Snake Game
