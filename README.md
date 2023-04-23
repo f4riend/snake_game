@@ -1,2 +1,2 @@
 # HOW TO PLAY
-ARROW KEYS FOR MOVEMENT // Classic Snake Game
+Arrow keys for movement // Classic Snake Game
