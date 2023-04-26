@@ -32,14 +32,14 @@ while isGameOn:
         snake.extend()
         score.updateScore()
 
-    if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
-        isGameOn = False
-        score.gameOver()
+    if snake.head.xcor() > 290 or snake.head.xcor() < -290 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+        score.reset()
+        snake.reset()
 
     
     for tail in snake.tails[1:]:
         if snake.head.distance(tail) < 10:
-            isGameOn = False
-            score.gameOver()
+            score.reset()
+            snake.reset()
 
 canvas.exitonclick()

@@ -26,6 +26,13 @@ class Snake:
         tail.goto(position)
         self.tails.append(tail)
 
+    def reset(self):
+        for tail in self.tails:
+            tail.goto(1000,1000)
+
+        self.tails.clear()
+        self.createSnake()
+        self.head = self.tails[0]
 
     def extend(self):
         self.createTail(self.tails[-1].position())
