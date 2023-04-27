@@ -1,7 +1,12 @@
 # Snake Game
 
-**HOW TO PLAY** <br>
-**`WASD Classic Snake Game`**
 
-## Which libraries used
+## GAME DESCRIPTION <br>
+**Try to get the highest score**
+
+
+## HOW TO PLAY <br>
+`ARROW KEYS`
+
+## WHICH LIBRARIES USED
 `Turtle` `Random`
