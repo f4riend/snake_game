@@ -11,5 +11,5 @@
 ## WHICH LIBRARIES USED
 `Turtle` `Random`
 
-##PREVIEW
+## PREVIEW
 ![Preview](snake.jpg)
